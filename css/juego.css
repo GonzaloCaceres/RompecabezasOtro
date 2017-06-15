@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 940px;
+    margin: 5% auto;
+    min-height: 100%;
+    background-image: url(../images/adventure.jpg);
+}
+li {
+    padding: 5px;
+    list-style: square;
+}
+.col-40,
+.col-60 {
+    display: table-cell;
+    margin: 0;
+    vertical-align: top;
+    background-color: rgb(161, 204, 121);
+}
+.col-40 {
+    background: #FFF;
+    padding: 30px;
+    color: #000;
+}
+#juego div {
+    text-align: center;
+    animation: fadein 2s;
+}
+.piezas {
+    position: relative;
+    float: left;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+h1 {
+    border-style: outset;
+    color: white;
+    background-color: rgb(161, 204, 121);
+    padding-left: 5px;
+}
+h2 {
+    color: rgb(161, 204, 121);
+}
+h3 {
+    border-style: outset;
+    color: white;
+    font-style: italic;
+    background-color: rgb(37, 37, 37);
+    padding-left: 5px;
+    margin-right: 53px;
+}
+.autor {
+    text-align: center;
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
